@@ -35,6 +35,7 @@ periodically throughout the day at: 8:30, 10:00, 10:30, 12:00, 13:30, 14:00,
 1. Edit `crontab`
 2. Add lines to crontab:
 
+```
     00 08 * * * admin /bin/ftpscript /etc/config/ftp0.scr
     00 10 * * * admin /bin/ftpscript /etc/config/ftp0.scr
     30 10 * * * admin /bin/ftpscript /etc/config/ftp0.scr
@@ -43,7 +44,7 @@ periodically throughout the day at: 8:30, 10:00, 10:30, 12:00, 13:30, 14:00,
     00 14 * * * admin /bin/ftpscript /etc/config/ftp0.scr
     00 16 * * * admin /bin/ftpscript /etc/config/ftp0.scr
     00 18 * * * admin /bin/ftpscript /etc/config/ftp0.scr
-
+```
 
 
 
