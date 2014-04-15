@@ -1,0 +1,21 @@
+PATH=/bin
+HOME=/var/tmp
+MAILTO=
+MAILHOST=
+
+00 08 * * * admin /bin/ftpscript /etc/config/ftp0.scr
+00 10 * * * admin /bin/ftpscript /etc/config/ftp0.scr
+30 10 * * * admin /bin/ftpscript /etc/config/ftp0.scr
+00 12 * * * admin /bin/ftpscript /etc/config/ftp0.scr
+30 13 * * * admin /bin/ftpscript /etc/config/ftp0.scr
+00 14 * * * admin /bin/ftpscript /etc/config/ftp0.scr
+00 16 * * * admin /bin/ftpscript /etc/config/ftp0.scr
+00 18 * * * admin /bin/ftpscript /etc/config/ftp0.scr
+
+#0 0 * * * admin /bin/reboot -d 60
+*/10 * * * * admin /bin/tzo.signon
+* * * * * admin /bin/overlay
+*/5 * * * * admin /bin/weather
+*/5 * * * * admin /bin/video-watchdog
+*/1 * * * * admin /bin/mbus /dev/watchdog w 0x7
+0 12 * * * admin /etc/rc.ntpdate
