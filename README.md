@@ -2,8 +2,8 @@
 
 ## Make directory for {site}
 
-On `health.rccc.ou.edu` you'll need to create a directory named for the
-`{site}` in `/raid2/eomfftp/phenocam`.  
+On `mangrove.rccc.ou.edu` you'll need to create a directory named for the
+`{site}` in `/home/eomfftp/phenocam`.  
 
 
 ## FTP Settings
